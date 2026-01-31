@@ -17,6 +17,8 @@
 	<description>Day 13 revision project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
+		<sonar.organization>nus-sg</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -121,5 +123,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
